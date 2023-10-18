@@ -1,0 +1,25 @@
+.component__menu-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 15vh;
+    padding-left: 2%;
+}
+.menu-bar__image{
+    
+    width: 10vw;
+}
+.off{
+    display: none;
+}
+.menu-bar__list{
+    margin-left: 2%;
+    font-size: .5rem;
+    list-style: none;
+    display: flex;
+    column-gap: 5%;
+}
+.menu-bar__anchor{
+    font-style: none;
+    color: white;
+}

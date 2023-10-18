@@ -1,0 +1,15 @@
+
+<div>
+    <img src="{{Image}}" alt="">
+</div>
+<div class="components__contents-describe">
+    <span>{{Paragraph }} </span>
+    <h1>{{ Title }}</h1>
+    <p>{{ Description }}</p>
+</div>
+<li *ngFor='let Categorize of Categorize'>{{Categorize}}</li>
+<a [routerLink]="['/home']">
+    <button>
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
+</a>
